@@ -1,0 +1,25 @@
+{
+    "language": "English",
+ 
+    "database": "Database",
+  
+    "googlemap": "Google Map",
+  
+    "youtube": "You Tube",
+ 
+    "simplefirebaseChat": "Simple FirebaseChat",
+  
+    "firebasedynamicLinking": "Firebase DynamicLinking",
+   
+    "getcurrentlocation": "Get Current Location",
+ 
+    "pagination": "Pagination",
+   
+    "readandwritefile": "ReadAndWriteFile",
+   
+    "getpost": "Get Post",
+   
+    "localization": "Localization"
+
+    
+}

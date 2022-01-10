@@ -1,0 +1,92 @@
+import 'package:smartkit/FullApp/eStudy/desktop/Activity/HomeActivityDesktop.dart';
+import 'package:smartkit/FullApp/eStudy/helper/ColorsRes.dart';
+import 'package:smartkit/FullApp/eStudy/helper/StringsRes.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class PaymentSuccessActivityDesktop extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return new PaymentSuccessActivityDesktopState();
+  }
+}
+
+class PaymentSuccessActivityDesktopState extends State<PaymentSuccessActivityDesktop> {
+  @override
+  void initState() {
+    super.initState();
+    SystemChrome.setEnabledSystemUIOverlays(SystemUiOverlay.values);
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: ColorsRes.bgPage,
+      resizeToAvoidBottomInset: false,
+      appBar: AppBar(
+        systemOverlayStyle: SystemUiOverlayStyle.light,
+        shadowColor: Colors.transparent,
+        backgroundColor: Colors.transparent,
+        iconTheme: IconThemeData(
+          color: ColorsRes.appcolor, //change your color here
+        ),
+        title: Text(
+          StringsRes.Payment_Methods_lb,
+          style: TextStyle(color: ColorsRes.introTitlecolor, fontSize: 28),
+        ),
+        centerTitle: true,
+      ),
+      body: new Container(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            SvgPicture.network("https://smartkit.wrteam.in/smartkit/eStudy/payment_success.svg", color: ColorsRes.appcolor),
+            SizedBox(
+              height: 14.9,
+            ),
+            Text(
+              StringsRes.Payment_Successfull_lb,
+              textAlign: TextAlign.center,
+              style: TextStyle(fontFamily: 'Nunito-Regular', fontSize: 38, color: ColorsRes.introTitlecolor),
+            ),
+            SizedBox(
+              height: 65,
+            ),
+            Container(
+              margin: EdgeInsets.only(left: 20, right: 20),
+              child: Text(StringsRes.Payment_Detail_lb, textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Nunito-Regular', fontSize: 14, color: ColorsRes.lightgraycolor)),
+            ),
+            SizedBox(height: 65),
+            TextButton(
+                onPressed: () {
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => HomeActivityDesktop()));
+                },
+                child: Container(
+                    width: 300,
+                    margin: EdgeInsets.only(left: 20, right: 20),
+                    alignment: Alignment.center,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(colors: [
+                        ColorsRes.secondgradientcolor,
+                        ColorsRes.firstgradientcolor,
+                      ], begin: Alignment.centerLeft, end: Alignment.centerRight),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      StringsRes.Goto_Home_button_lb,
+                      style: TextStyle(color: ColorsRes.white, fontSize: 20),
+                    ))),
+          ],
+        ),
+      ),
+    );
+  }
+}

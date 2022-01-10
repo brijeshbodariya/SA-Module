@@ -1,0 +1,24 @@
+{
+   
+    "llanguageanguage": "الإنجليزية",
+ 
+    "database": "قاعدة البيانات",
+  
+    "googlemap": "خرائط جوجل",
+  
+    "youtube": "موقع YouTube",
+ 
+    "simplefirebaseChat": "FirebaseChat بسيط",
+  
+    "firebasedynamicLinking": "Firebase DynamicLinking",
+   
+    "getcurrentlocation": "احصل على الموقع الحالي",
+ 
+    "pagination": "ترقيم الصفحات",
+   
+    "readandwritefile": "قراءة وكتابة الملف",
+   
+    "getpost": "احصل على بوست",
+   
+    "localization": "الموقع"
+}

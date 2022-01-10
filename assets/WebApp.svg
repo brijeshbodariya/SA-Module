@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.055" height="22.021"
+  viewBox="0 0 40.055 22.021">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.265" x2="1" y2="0.75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d6cba" />
+      <stop offset="1" stop-color="#54c1ff" />
+    </linearGradient>
+  </defs>
+  <g id="WebApp" transform="translate(-162.773 -173.5)">
+    <path id="Path_1985" data-name="Path 1985"
+      d="M305.909,174a3.921,3.921,0,0,0-2.416,7.008c1.6,1.257,2.992,2.165,2.425,4.741l3.276-5.678a4.2,4.2,0,0,0,.635-2.15A3.921,3.921,0,0,0,305.909,174Zm2.3,5.654a2.89,2.89,0,0,0-4.842-3.128,2.89,2.89,0,1,1,4.842,3.128Z"
+      transform="translate(-107.502)" fill-rule="evenodd" fill="url(#linear-gradient)" />
+    <path id="Path_1986" data-name="Path 1986"
+      d="M244.195,187.473c-2.636,4.069-3.6,7.881-6.659,7.881-1.913,0-2.926-1.057-3.946-2.823l-6.677-11.564c-1.052-1.823-1.9-2.024-3.745-.381,2.425-4.783,3.5-6.156,5.684-6.156,1.787,0,2.693,1.358,3.48,2.721,1.749,3.031,3.593,6.223,5.343,9.254C239.154,188.967,241.915,189.753,244.195,187.473Z"
+      transform="translate(-46.441 -0.333)" fill-rule="evenodd" fill="url(#linear-gradient)" />
+    <path id="Path_1987" data-name="Path 1987"
+      d="M184.245,187.473c-2.636,4.069-3.6,7.881-6.659,7.881-1.914,0-2.926-1.057-3.946-2.823l-6.677-11.564c-1.052-1.823-1.9-2.024-3.745-.381,2.425-4.783,3.5-6.156,5.684-6.156,1.787,0,2.693,1.358,3.48,2.721,1.749,3.031,3.593,6.223,5.343,9.254C179.2,188.967,181.965,189.753,184.245,187.473Z"
+      transform="translate(0 -0.333)" fill-rule="evenodd" fill="url(#linear-gradient)" />
+  </g>
+</svg>
